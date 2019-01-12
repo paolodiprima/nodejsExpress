@@ -8,6 +8,6 @@ document.getElementById('mybutton').onclick = function(e){
         xhr.onload = function(){
             alert(xhr.response);
             };
-        xhr.send(JSON.stringify({a:1,b:2}));
+        xhr.send(JSON.stringify({a:1,b:3}));
 };
 
